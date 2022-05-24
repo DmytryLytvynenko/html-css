@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap'); */
+
+@font-face {
+font-family: 'Gotham Rounded';
+src: url('./Fonts/GothamRounded-Bold.eot');
+src: url('./Fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./Fonts/GothamRounded-Bold.woff2') format('woff2'),
+    url('./Fonts/GothamRounded-Bold.woff') format('woff'),
+    url('./Fonts/GothamRounded-Bold.ttf') format('truetype'),
+    url('./Fonts/GothamRounded-Bold.svg#GothamRounded-Bold') format('svg');
+font-weight: bold;
+}
+header{
+    text-align: center;
+}
+ul.menu li{
+    display: inline;
+    margin-right: 65px;
+}
+ul.menu{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #399c83; 
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #373737;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1054px;
+}
+.content{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #000000; 
+}
+.hero-image{
+    display: block;
+    margin: 0 auto;
+}
+ul.menu :last-child{
+    margin-right: 0;
+}
+
+.start-link-block{
+    margin-top: 45px;
+}
+.start-link{
+    font-size: 12px;
+    color: white;
+    font-family: 'Gotham Rounded', sans-serif;
+    border-radius: 4px;
+    border: 10px solid #399c83;
+    background-color: #399c83;
+}
+.wrapper{
+    max-width: 1280px;
+    margin:  0 auto;
+}
+footer{
+    margin-top: 133px;
+    margin-bottom: 195px;
+    font-family: 'Roboto', sans-serif;
+    color: #373737;
+}
+.bottom-menu{
+    float: left;
+    width: 55%;
+    margin-left: 110px;
+    text-align: left;
+    list-style: none;
+}
+.bottom-menu-link{
+    display: inline;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-right: 3px solid #399c83;
+    padding-right: 3px;
+    font-weight: 600;
+}
+.bottom-menu :last-child{
+    border: none;
+}
+.copyright{
+    font-size: 16px;
+    float: left;
+    
+}
