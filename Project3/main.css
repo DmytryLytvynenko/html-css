@@ -35,12 +35,20 @@ header{
     font-size: 18px;
 }
 .logo-img{
+    filter: invert(10%) sepia(14%) saturate(0%) hue-rotate(3deg) brightness(104%) contrast(1111%);
     float: left;
 }
+.logo-img :hover{
+    filter: invert(49%) sepia(48%) saturate(2888%) hue-rotate(349deg) brightness(88%) contrast(92%);
+}
 .logo{
+    color: #fff;
     padding-bottom: 45px;
     padding-left: 15px;
     float: left;
+}
+.logo:hover{
+    color: #f26522;
 }
 h2{
     font-size: 29px;
